@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How DPM Uses Matrix Factorization</title>
+  <link rel="stylesheet" href="dev-style.css" />
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay">
+      <h1>🔍 How We Match the Right Technician</h1>
+      <p>Behind the scenes, DPM uses <strong>Matrix Factorization</strong> to automate technician recommendations.</p>
+    </div>
+  </div>
+
+  <div class="content">
+    <section>
+      <h2>What is Matrix Factorization?</h2>
+      <p>Matrix Factorization is a machine learning technique that breaks down large data tables into smaller patterns — helping us uncover hidden relationships between users (tenants) and items (technicians).</p>
+    </section>
+
+    <section>
+      <h2>How DPM Applies It</h2>
+      <p>DPM learns from previous maintenance jobs, technician skills, zones, urgency levels, and feedback ratings. It builds a matrix of scores, and factorizes it to recommend the most suitable technician for new requests — even if ratings are missing.</p>
+    </section>
+
+    <section>
+      <h2>Scoring Breakdown</h2>
+      <ul>
+        <li>✔️ 25% Skill Match</li>
+        <li>✔️ 25% Technician Rating</li>
+        <li>✔️ 30% Zone Match</li>
+        <li>✔️ 20% Urgency Sensitivity</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Why It Works</h2>
+      <p>It avoids guesswork and manual assignments. It handles sparse data, improves over time, and ensures balanced workloads based on skill and proximity.</p>
+    </section>
+
+    <section>
+      <h2>Example in Action</h2>
+      <p>Tenant A in Zone 2 submits a plumbing issue. DPM checks technician skillsets, urgency, and zone match — even if there's no prior data for this tenant. Matrix factorization predicts which technician is most compatible and sends the request instantly.</p>
+    </section>
+
+    <footer>
+      <p>Built with ❤️ by the DPM Team</p>
+    </footer>
+  </div>
+</body>
+</html>
